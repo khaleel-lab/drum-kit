@@ -1,0 +1,21 @@
+// creating object
+ var bellBoy = {
+     name: "Khaleel",
+     age: 19,
+     yearsOfExperience: 2
+ }
+
+//To add a new property to a constructor, you must add it to the constructor function:
+ funcion HouseKeeper(name, age, yearsOfExperience, cleaningRepertoire){
+     this.name = name;
+     this.age = age;
+     this.yearsOfExperience = yearsOfExperience;
+ }
+
+    //factory is exicuting new houseKeepers😀
+    var houseKeeper1 = new HouseKeeper("Khaleel", 19, 2, ["lobby", "bedroom", "bathroom"]);
+    var houseKeeper2 = new HouseKeeper("Sonu", 24, 5, ["bedroom", "bathroom"]);
+    var houseKeeper3 = new HouseKeeper("Anshu", 21, 1, ["lobby", "bedroom"]);
+
+
+    console.log(houseKeeper1.name);
